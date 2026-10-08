@@ -4,6 +4,8 @@ Diskclosure is a terminal program for seeing what is using space on a Mac. It li
 
 The pictures show the real interface. The folder and file names in them are examples, so this repository does not contain a listing of anyone's personal files. The disk summary at the top is from the Mac that rendered the picture.
 
+![Ten-second walk through of Diskclosure](docs/demo.gif)
+
 ![Common Mac folders and how much space they use](docs/screenshots/folders.png)
 
 ## Install
@@ -67,7 +69,7 @@ python -m pip install -e .
 python -m unittest discover -s tests -t .
 ```
 
-Regenerate the pictures with `python scripts/capture_screenshots.py`.
+Regenerate the pictures with `python scripts/capture_screenshots.py`. Regenerate the demo with `python scripts/make_demo.py` (needs `ffmpeg`).
 
 ## License
 
