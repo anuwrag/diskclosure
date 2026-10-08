@@ -2,8 +2,6 @@
 
 Diskclosure is a terminal program for seeing what is using space on a Mac. It lists the usual folders, the largest files, and copies that share a size. Enter opens the selection in Finder. Anything you remove goes to the Trash, and only after you confirm.
 
-The pictures show the real interface. The folder and file names in them are examples, so this repository does not contain a listing of anyone's personal files. The disk summary at the top is from the Mac that rendered the picture.
-
 ![Ten-second walk through of Diskclosure](docs/demo.gif)
 
 ![Common Mac folders and how much space they use](docs/screenshots/folders.png)
