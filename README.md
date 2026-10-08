@@ -13,7 +13,7 @@ Diskclosure runs on macOS and needs Python 3.11 or newer.
 [pipx](https://pipx.pypa.io/) installs it as its own command:
 
 ```bash
-pipx install git+https://github.com/YOU/diskclosure.git
+pipx install git+https://github.com/anuwrag/diskclosure.git
 diskclosure
 ```
 
