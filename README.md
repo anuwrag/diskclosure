@@ -62,6 +62,10 @@ The first screen is **Common folders**. Sizes fill in while your home folder is 
 
 Mail, Messages, and some other Library folders stay empty until Terminal has Full Disk Access in System Settings → Privacy & Security.
 
+## Windows
+
+The Windows edition lives in [`windows/`](windows/README.md). It uses File Explorer and the Recycle Bin, and it can be built into `Diskclosure.exe`. On Windows, run `windows\build.ps1`. A push that changes `windows/` also builds that program in GitHub Actions; the artifact is named **Diskclosure-windows**.
+
 ## Tests
 
 ```bash
